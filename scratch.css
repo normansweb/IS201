@@ -1,0 +1,86 @@
+body{
+    background-color:beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.common{
+    background-color: rgb(14, 90, 126);
+    position: absolute;
+    text-decoration: none;
+}
+
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 80px;
+    z-index: 100;
+    border:solid 5px;
+    border-color:black;
+    padding: 15px;
+}
+
+
+.left{
+    top: 130px;
+    left: 5px;
+    width: 250px;
+    height: auto;
+    z-index: 99;
+    border:solid 5px;
+    border-color:black;
+    padding: 5px;
+}
+
+
+.body{
+    top: 130px;
+    left: 280px;
+    right: 5px;
+    height:auto;
+    z-index: 1;
+    border:solid 5px;
+    border-color:black;
+    padding: 25px;
+    text-align: center;
+    font-size:50px ;
+}
+
+
+.right{
+    top: 130px;
+    width:170px;
+    right: 5px;
+    height: 1500px;
+    z-index: 99;
+    border:solid 5px;
+    border-color:black;
+    padding: 5px;
+}
+
+.image {
+    top:15px ;
+    right:15px ;
+    z-index: 200;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: rgb(182, 161, 134);
+}
+
+a:visited{
+    color: rgb(165, 137, 114);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: bisque;
+}
